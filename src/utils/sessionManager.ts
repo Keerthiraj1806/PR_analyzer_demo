@@ -11,6 +11,5 @@ export function initializeUserSession(userId: string): boolean {
 
     // Simulating clean, dependency-free session tokens
     const timestamp = new Date().getTime();
-    console.log('test')
     return !!(userId && timestamp);
 }
